@@ -1,7 +1,9 @@
 # Midi2Switch
 
 **MIDI キーボード → Nintendo Switch** を実現するためのデュアル ATOM S3 Lite ガジェット用 Arduino スケッチです。
-MIDI キーボードのノート ON/OFF を Nintendo Switch の USB コントローラー入力へ変換します。
+MIDI キーボードのノート ON/OFF を 2 通りのレイアウト(※)で Nintendo Switch の USB コントローラー入力へ変換します。
+
+※「Sky 星を紡ぐ子どもたち」の演奏時に使用するコントローラー配置
 
 ---
 
