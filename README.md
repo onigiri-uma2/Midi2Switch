@@ -19,7 +19,6 @@ MIDI キーボードのノート ON/OFF を Nintendo Switch の USB コント�
 * LED で接続状態を即座に確認。
 * ATOMS3\_B の物理ボタン（短押し）で **マッピング 1 / 2** を即時切替  
 * ATOMS3\_B の物理ボタン（長押し）で **RS ボタン**を送信（ゲーム内のキー配置を変更）  
-* Velocity を色相＋輝度に変換して LED 表示  
 * D-Pad（十字キー）の斜め／同時入力には対応していますが、上下／左右といった逆方向の同時入力には対応していません。  
 * アナログスティックは斜めも含めて同時入力には対応していません。  
 
@@ -33,7 +32,7 @@ MIDI キーボードのノート ON/OFF を Nintendo Switch の USB コント�
 | USB‑C OTG ケーブル       | ATOMS3\_B ⇒ Nintendo Switch 接続         |
 | MIDI キーボード (USB)     | ATOMS3\_A に接続                          |
 | GROVE ケーブル           | （UART 版のみ）A ↔ B 接続                     |
-| 5 V 電源 (USB‑C)       | ATOMS3\_A を給電                         |
+| 5V 電源       | ATOMS3\_A を給電                         |
 
 > **注意**  
 > GROVE ケーブルを使用する場合は5V ライン（赤い線）を必ずカットすること   
@@ -41,8 +40,7 @@ MIDI キーボードのノート ON/OFF を Nintendo Switch の USB コント�
 > 5V電源同士が衝突した場合、破損・発煙の可能性があります。
 
 > **なぜ 2 台構成?**
->
-> * Switch は BLE 非対応 (Classic のみ)
+> * Switch は BLE 非対応 (Classic のみ)／ATOM S3 は Bluetooth Classic 非対応
 > * ATOM S3 Lite は USB‑C が 1 口しかない – USB Host と Device を同時に扱えない
 > * USB ハブを S3 で制御するのはハードルが高い
 >   → **USB Device 専用 (B) / USB Host 専用 (A) に分離** するのがシンプルで確実。
